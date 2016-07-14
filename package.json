@@ -14,6 +14,5 @@
   "license": "MIT",
   "dependencies": {
     "slackbots": "^0.5.1",
-    "sqlite3": "^3.1.4"
   }
 }
