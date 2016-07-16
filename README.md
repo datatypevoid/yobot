@@ -2,7 +2,9 @@
 
 Run `$ npm install`
 
-Run `$ npm run start` to restore ionic plugins
+Modify the `npm` `start` script to include your `Slack` `API` key
+
+Run `$ npm run start` to fire up Yo-Bot
 
 # Usage
 
