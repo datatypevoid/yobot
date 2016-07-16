@@ -9,7 +9,7 @@
     "clean:install": "npm install",
     "create:db": "sqlite3 data/yo-bot.db \"create table info(name text, val text);create table users(uid text);\"",
     "preinstall": "npm run clean:db",
-    "start": "BOT_API_KEY=xoxb-59884489395-7tEzQQAeEm3uPFHhnQWAlHr8 node bin/bot.js",
+    "start": "BOT_API_KEY= node bin/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
