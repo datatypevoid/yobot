@@ -1,18 +1,31 @@
 {
-  "name": "articuno-bot",
+  "name": "yo-bot",
   "version": "0.0.0",
   "description": "custom slackbot for welcoming new members of the ocala branch of team mystic",
-  "main": "lib/articuno-bot.js",
+  "main": "lib/yo-bot.js",
   "scripts": {
+    "clean:db": "rimraf data/yo-bot.db && npm run create:db",
+    "preclean:install": "rimraf node_modules",
+    "clean:install": "npm install",
+    "create:db": "sqlite3 data/yo-bot.db \"create table info(name text, val text);create table users(uid text);\"",
+    "preinstall": "npm run clean:db",
+    "start": "BOT_API_KEY=xoxb-59884489395-7tEzQQAeEm3uPFHhnQWAlHr8 node bin/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "pokemongo",
-    "slackbot"
+    "slack",
+    "bot"
   ],
   "author": "datatypevoid",
   "license": "MIT",
   "dependencies": {
-    "slackbots": "^0.5.1"
+    "q": "^1.4.1",
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "rimraf": "^2.5.3"
   }
 }
