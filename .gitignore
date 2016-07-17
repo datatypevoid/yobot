@@ -8,5 +8,8 @@ npm-debug.log
 # database
 data/yo-bot.db
 
+# welcome message
+welcome.txt
+
 # OS X generated files
 .DS_Store
