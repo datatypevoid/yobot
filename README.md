@@ -28,9 +28,6 @@ Profit.
 # Clean install
 $ npm run clean:install
 
-# Compile Sass
-$ gulp sass
-
 # Lint JavaScript with ESLint
 $ gulp lint
 
