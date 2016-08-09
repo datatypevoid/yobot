@@ -25,6 +25,9 @@ Profit.
 # Usage
 
 ```
+# install rimraf globally
+$ npm install -g rimraf
+
 # Clean install
 $ npm run clean:install
 
