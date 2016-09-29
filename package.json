@@ -4,8 +4,8 @@
   "description": "Easily extendable slackbot for greeting new team members in your Slack Group",
   "main": "lib/yo-bot.js",
   "scripts": {
-    "clean:db": "rimraf data/yo-bot.db && npm run create:db",
-    "preclean:install": "rimraf node_modules",
+    "clean:db": "rm data/yo-bot.db && npm run create:db",
+    "preclean:install": "rm -rf node_modules",
     "clean:install": "npm install",
     "create:db": "sqlite3 data/yo-bot.db \"create table info(name text, val text);create table users(uid text);\"",
     "preinstall": "npm run clean:db",
@@ -24,7 +24,6 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-eslint": "^3.0.1",
-    "rimraf": "^2.5.3"
+    "gulp-eslint": "^3.0.1"
   }
 }
