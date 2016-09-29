@@ -1,4 +1,8 @@
-# Setup
+[![Dependency Status](https://david-dm.org/datatypevoid/yobot.svg)](https://david-dm.org/datatypevoid/yobot) [![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://travis-ci.org/datatypevoid/yobot) [![GitHub tag](https://img.shields.io/github/tag/datatypevoid/yobot.svg?maxAge=2592000)](https://github.com/datatypevoid/yobot) [![license](https://img.shields.io/github/license/datatypevoid/yobot.svg?maxAge=2592000)](https://github.com/datatypevoid/yobot/blob/master/LICENSE)
+
+# yobot [![Join Slack](https://img.shields.io/badge/slack-join-brightgreen.svg)](http://www.davidniciforovic.com/wp-login.php?action=slack-invitation) [![Join the chat at https://gitter.im/datatypevoid/yobot](https://badges.gitter.im/datatypevoid/yobot.svg)](https://gitter.im/datatypevoid/yobot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+## Setup
 
 Fork this project.
 
@@ -22,7 +26,7 @@ Invite your bot into the desired channels you wish it to be accessible from, but
 
 Profit.
 
-# Usage
+## Usage
 
 ```
 # install rimraf globally
