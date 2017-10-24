@@ -37,7 +37,4 @@ $ npm run clean:install
 
 # Lint JavaScript with ESLint
 $ gulp lint
-
-# Build and Lint Sass on file change
-$ gulp watch
 ```
